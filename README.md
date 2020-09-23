@@ -5,17 +5,17 @@
 
 ## Table of Contents
 
-- [About the Project](https://github.com/Jessica264365/)
-  - [Built With](https://github.com/Jessica264365/HW02-Responsive-Portfolio#built-with)
+- [About the Project](https://github.com/Jessica264365/Random-Password-Generator-HW3#about-the-project)
+  - [Built With](https://github.com/Jessica264365/Random-Password-Generator-HW3#built-with)
 
-* [Start Your Own](https://github.com/Jessica264365/HW02-Responsive-Portfolio#start-your-own)
-  - [Prerequisites](https://github.com/Jessica264365/HW02-Responsive-Portfolio#prerequisites)
-  - [Installation](https://github.com/Jessica264365/HW02-Responsive-Portfolio#installation)
+* [Start Your Own](https://github.com/Jessica264365/Random-Password-Generator-HW3#start-your-own)
+  - [Prerequisites](https://github.com/Jessica264365/Random-Password-Generator-HW3#prerequisites)
+  - [Installation](https://github.com/Jessica264365/Random-Password-Generator-HW3#installation)
 
-- [License](https://github.com/Jessica264365/HW02-Responsive-Portfolio#license)
-- [Roadmap](https://github.com/Jessica264365/HW02-Responsive-Portfolio#roadmap)
-- [Contribute](https://github.com/Jessica264365/HW02-Responsive-Portfolio#contribute)
-- [My Contact Information](https://github.com/Jessica264365/HW02-Responsive-Portfolio#my-contact-information)
+- [License](https://github.com/Jessica264365/Random-Password-Generator-HW3#license)
+- [Roadmap](https://github.com/Jessica264365/Random-Password-Generator-HW3#roadmap)
+- [Contribute](https://github.com/Jessica264365/Random-Password-Generator-HW3#contribute)
+- [My Contact Information](https://github.com/Jessica264365/Random-Password-Generator-HW3#my-contact-information)
 
 ## About the Project
 
