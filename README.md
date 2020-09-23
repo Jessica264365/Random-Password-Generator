@@ -1,4 +1,4 @@
-# Homework Assignment 2: Random Password Generator
+# Homework Assignment 3: Random Password Generator
 
 - View the GitHub [repository](https://github.com/Jessica264365/Random-Password-Generator-HW3)
 - View the live [website](https://jessica264365.github.io/Random-Password-Generator-HW3/)
