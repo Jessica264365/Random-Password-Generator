@@ -48,7 +48,7 @@ None
 
 ## Roadmap
 
-This project does not currently have an open issues. Please check the [issues](https://github.com/Jessica264365/HW02-Responsive-Portfolio/issues) page on GitHub for any updates.
+This project does not currently have an open issues. Please check the [issues](https://github.com/Jessica264365/Random-Password-Generator-HW3/issues) page on GitHub for any updates.
 
 ## Contribute
 
