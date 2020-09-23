@@ -1,11 +1,11 @@
-# Homework Assignment 2: Responsive Portfolio
+# Homework Assignment 2: Random Password Generator
 
 - View the GitHub [repository](https://github.com/Jessica264365/Random-Password-Generator-HW3)
 - View the live [website](https://jessica264365.github.io/Random-Password-Generator-HW3/)
 
 ## Table of Contents
 
-- [About the Project](https://github.com/Jessica264365/HW02-Responsive-Portfolio#about-the-project)
+- [About the Project](https://github.com/Jessica264365/)
   - [Built With](https://github.com/Jessica264365/HW02-Responsive-Portfolio#built-with)
 
 * [Start Your Own](https://github.com/Jessica264365/HW02-Responsive-Portfolio#start-your-own)
@@ -19,25 +19,14 @@
 
 ## About the Project
 
-For this homework assignment I was tasked with creating a responsive web page using Bootstraps grid system. I was given 3 different pages I needed to create. The pages were as follows:
+For this homework assignment I was given a html, css and JavaScript document. My goal was to write some JavaScript code that would prompt the user to
+select some criteria for a randomly generated password. The password would then be displayed to the user in the "Generate Password" box. When the user clicks the "Generate Password" button they are prompted to choose a password length between 8 and 128 characters. Then a series of confirms ask the user if they would like to include lowercase letters, uppercase letters, numbers and special characters. The password is then randomly generated to fit the criteria that has been selected.
 
-- An index.html page with an "About Me" section and photo
-- A contact page with a contact form that the user could submit
-- A portfolio page with 5 pictures laid out using Bootstaps grid system
-
-After I created these pages I needed to make sure they were responsive for the following screen sizes:
-
-- 992
-- 768
-- 400
-
-I was required to use my own pictures and personal details in the "About Me" section and Portfolio page. So once the framework was done I added those personal touches for the final product.
-
-![](/images/aboutme.PNG) ![](/images/contact.PNG) ![](/images/portfolio.PNG)
+![](/images/passgen1.PNG) ![](/images/passgen2.PNG)
 
 ### Built With
 
-This project with built using Bootstraps gird system. I added in personal touches with my own CSS style sheet which you can view in my repository.
+I did not use any specific tool to build this generator. It is just plain vanilla JavaScript.
 
 ## Start Your Own
 
@@ -45,13 +34,13 @@ To get a copy of this project on your local computer please follow these next st
 
 ### Prerequisites
 
-Be familier with [Bootstrap.com](https://getbootstrap.com/). The grid system for this project and most of the components come from this site.
+Be familier with some JavaScript.
 
 ### Installation
 
 1. Clone the repository
 
-   git@github.<span></span>com:Jessica264365/HW02-Responsive-Portfolio.git
+   git@github.<span></span>com:Jessica264365/Random-Password-Generator-HW3.git
 
 ## License
 
@@ -77,4 +66,4 @@ Email: jwhitman135@outlook.com
 
 GitHub Page: https://github.com/Jessica264365
 
-Link to project: https://github.com/Jessica264365/HW02-Responsive-Portfolio
+Link to project: https://github.com/Jessica264365/Random-Password-Generator-HW3
