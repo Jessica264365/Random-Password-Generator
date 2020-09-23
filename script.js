@@ -11,13 +11,6 @@
 //
 // * Gather user input with prompt's and confirm's
 
-///////////////////////////////////////////////////////////////////////
-// DO NOT TOUCH THIS CODE
-//
-// This code handles:
-// * clicking the Generate Password
-// * writing the password to the screen
-//
 // Variables for Password Generator
 var result = "";
 var lowercase = "abcdefghijklmnopqrstuvwxyz";
@@ -26,26 +19,29 @@ var numbers = "0123456789";
 var characters = "*&%^#@!?/";
 var base = "";
 var generateBtn = document.querySelector("#generate");
-let passwordLength;
+// let passwordLength = [];
 
 // 1. Get password length
 //  A. More than 8 and less than 128
-function generatePassword() {
-  ask();
-  function ask() {
-    let userInput = prompt(
+
+function ask() {
+  let userInput = parseInt(
+    prompt(
       "Your password must be between 8 and 128 characters. How many characters is your password?"
-    );
-    let userInputnum = parseInt(userInput);
-    if (userInputnum >= 8 && userInputnum <= 128) {
-      passwordLength = userInputnum;
-    }
-    //  B. If user selects less than 8 or more than 128 they are prompted to pick again
-    else {
-      alert("You must pick a number between 8 and 128 characters.");
-      return ask();
-    }
+    )
+  );
+  // let userInputnum = parseInt(userInput);
+  if (userInput >= 8 && userInput <= 128) {
+    let passwordLength = userInput;
+
+    // passwordLength = userInput;
   }
+  //  B. If user selects less than 8 or more than 128 they are prompted to pick again
+  else {
+    alert("You must pick a number between 8 and 128 characters.");
+    return;
+  }
+
   // 2. Confirm if user wants lowercase letters
 
   let lowercaseConfirm = confirm(
@@ -87,6 +83,10 @@ function generatePassword() {
   for (let index = 0; index < passwordLength; index++) {
     result += base.charAt(Math.floor(Math.random() * base.length));
   }
+  return result;
+}
+function generatePassword() {
+  ask();
   return result;
 }
 // Write password to the #password input
