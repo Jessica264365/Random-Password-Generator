@@ -7,9 +7,22 @@ var characters = "*&%^#@!?/";
 var base = "";
 var generateBtn = document.querySelector("#generate");
 let passwordLength;
+let forSure = "";
 
 // 1. Get password length
 //  A. More than 8 and less than 128
+function reset() {
+  result = "";
+  base = "";
+  passwordLength = 0;
+  forSure = "";
+}
+function getRandom(string) {
+  var randString = string.charAt(Math.floor(Math.random() * string.length));
+  var randElement = randString;
+
+  return randElement;
+}
 
 function generatePassword() {
   ask();
@@ -35,6 +48,7 @@ function generatePassword() {
   );
   if (lowercaseConfirm) {
     base += lowercase;
+    forSure += getRandom(lowercase);
   }
   // 3. Confirm if user wants uppercase letters
 
@@ -43,12 +57,14 @@ function generatePassword() {
   );
   if (UpperCaseConfirm) {
     base += uppercase;
+    forSure += getRandom(uppercase);
   }
   // 4. Confirm if user wants numbers
   let numbersConfirm = confirm("Should your password include numbers?");
 
   if (numbersConfirm) {
     base += numbers;
+    forSure += getRandom(numbers);
   }
 
   // 5. Confirm if user wants special characters
@@ -57,6 +73,7 @@ function generatePassword() {
   );
   if (specialcharConfirm) {
     base += characters;
+    forSure += getRandom(characters);
   }
 
   // 6. Password is generated and displayed to the user
@@ -64,11 +81,21 @@ function generatePassword() {
   for (let index = 0; index < passwordLength; index++) {
     result += base.charAt(Math.floor(Math.random() * base.length));
   }
-  return result;
+
+  let forSureString = forSure.split("");
+  let resultArray = result.split("");
+
+  for (var i = 0; i < forSureString.length; i++) {
+    resultArray[i] = forSureString[i];
+  }
+
+  console.log(forSure);
+  return resultArray.join("");
 }
 
 // Write password to the #password input
 function writePassword() {
+  reset();
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
@@ -78,5 +105,3 @@ function writePassword() {
 // Add event listener to generate button
 var generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", writePassword);
-
-console.log(result);
