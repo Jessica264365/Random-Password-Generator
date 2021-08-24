@@ -1,4 +1,6 @@
-# Homework Assignment 2: Random Password Generator
+# Homework Assignment 3: Random Password Generator
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 - View the GitHub [repository](https://github.com/Jessica264365/Random-Password-Generator-HW3)
 - View the live [website](https://jessica264365.github.io/Random-Password-Generator-HW3/)
@@ -48,7 +50,7 @@ None
 
 ## Roadmap
 
-This project does not currently have an open issues. Please check the [issues](https://github.com/Jessica264365/HW02-Responsive-Portfolio/issues) page on GitHub for any updates.
+This project does not currently have an open issues. Please check the [issues](https://github.com/Jessica264365/Random-Password-Generator-HW3/issues) page on GitHub for any updates.
 
 ## Contribute
 
